@@ -1,0 +1,444 @@
+header{
+    width: 100%;
+    height: 90px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+}
+header article{
+    width: 100%;
+    height: 90px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+    background: #330066;
+}
+header article a#logo{
+    width: 25%;
+    height: 90px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+}
+header article a#logo img{
+    width: auto;
+    height: 50px;
+    display: block;
+    margin: 21px 0 0 70%;
+    float: left;
+    position: relative;
+}
+header article nav#menu-principal{
+    width: 50%;
+    height: 60px;
+    display: block;
+    margin: 38px 0 0 25%;
+    float: left;
+    position: relative;
+}
+header article nav#menu-principal a{
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+    font-family: "Oswald", sans-serif;
+    font-size: 0.8em;
+    font-weight: 300;
+    padding: 10px;
+    text-decoration: none;
+    color: #F7F5F7;
+}
+header article nav#menu-principal a:hover{
+    color: #B7AEB7;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#fila-banner-frase{
+    width: 100%;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+    background: url(img/imagen-01.jpg);
+    background-size: cover;
+    
+}
+main section#fila-banner-frase article{
+    width: 100%;
+    height: 600px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative; 
+}
+main section#fila-banner-frase article h1{
+    font-family: "Oswald", sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    font-size: 5em;
+    padding: 170px 0 10px 0;
+    margin: 0;
+    font-weight: 500;
+    
+}
+main section#fila-banner-frase article p{
+    font-family: "Oswald", sans-serif;
+    color: #FFFFFF;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.4em;
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
+}
+main section#fila-banner-frase article a#buttom{
+    width: 8%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+    top: 22px;
+    
+    font-family: "Oswald", sans-serif;
+    padding: 7px;
+    text-decoration: none;
+    background-color: #330066;
+    color: #FFFFFF;
+    border: 1px solid black;
+    font-size: 1.1em;
+    font-weight: 300;
+    text-align: center;
+}
+main section#fila-banner-frase article a#buttom:hover{
+    
+}
+main section#fila-banner-frase article a#contacto{
+    position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 110px;
+	right: 40px;
+    
+	background-color: #FF6600;
+	color: #FFF;
+	border-radius: 50px;
+	text-align: center;
+    font-size: 30px;
+	box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+main section#fila-banner-frase article a#contacto i{
+    margin-top: 16px;
+}
+main section#fila-banner-frase article a#whatsapp{
+    position: fixed;
+	width: 60px;
+	height: 60px;
+	bottom: 40px;
+	right: 40px;
+    
+	background-color: #25d366;
+	color: #FFF;
+	border-radius: 50px;
+	text-align: center;
+    font-size: 40px;
+	box-shadow: 2px 2px 3px #999;
+    z-index: 100;
+}
+main section#fila-banner-frase article a#whatsapp i{
+    margin-top: 10px;
+    margin-left: 2px;
+}
+main section#fila-4-columnas{
+    width: 100%;
+    height: 360px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+}
+main section#fila-4-columnas article{
+    width: 70%;
+    height: 360px;
+    display: block;
+    margin: 80px 20% 80px 20%;
+    float: none;
+    position: relative;
+}
+main section#fila-4-columnas article figure#serv1{
+    width: 20%;
+    height: 360px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+}
+main section#fila-4-columnas article figure#serv1 img{
+    width: 100%;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    
+    border-radius: 50%;
+}
+main section#fila-4-columnas article figure#serv1 h4{
+    font-family: "Oswald", sans-serif;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.4em;
+    padding: ;
+    margin: 0;
+    font-weight: 300;
+}
+main section#fila-4-columnas article figure#serv2{
+    width: 20%;
+    height: 360px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+}
+main section#fila-4-columnas article figure#serv2 img{
+    width: 100%;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    
+    left: 30px;
+    
+    border-radius: 50%;
+}
+main section#fila-4-columnas article figure#serv2 h4{
+    font-family: "Oswald", sans-serif;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.4em;
+    padding: 0;
+    margin: 0 0 0 50px;
+    font-weight: 300;
+}
+main section#fila-4-columnas article figure#serv3{
+    width: 20%;
+    height: 360px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+}
+main section#fila-4-columnas article figure#serv3 img{
+    width: 100%;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    
+    left: 60px;
+    
+    border-radius: 50%;
+}
+main section#fila-4-columnas article figure#serv3 h4{
+    width: auto;
+    font-family: "Oswald", sans-serif;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.4em;
+    padding: 0 0 0 100px;
+    margin: 0 0 0 0;
+    font-weight: 300;
+}
+main section#fila-4-columnas article figure#serv4{
+    width: 20%;
+    height: 360px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+}
+main section#fila-4-columnas article figure#serv4 img{
+    width: 100%;
+    height: 200px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    
+    left: 90px;
+    
+    border-radius: 50%;
+}
+main section#fila-4-columnas article figure#serv4 h4{
+    font-family: "Oswald", sans-serif;
+    color: #000000;
+    text-align: center;
+    text-decoration: none;
+    font-size: 1.4em;
+    padding: 0 0 0 100px;
+    margin: 0 0 0 0;
+    font-weight: 300;
+}
+main section#fila-2-fotos{
+    width: ;
+    height: ;
+    display: ;
+    margin: ;
+    float: ;
+    position: ;
+}
+main section#fila-2-fotos article#foto-izquierda{
+    width: ;
+    height: ;
+    display: ;
+    margin: ;
+    float: ;
+    position: ;
+}
+main section#fila-2-fotos article#foto-derecha{
+    width: ;
+    height: ;
+    display: ;
+    margin: ;
+    float: ;
+    position: ;
+}
+
+main section#fila-frase-larga{
+    width: ;
+    height: ;
+    display: ;
+    margin: ;
+    float: ;
+    position: ;
+}
+main section#fila-frase-larga article{
+    width: ;
+    height: ;
+    display: ;
+    margin: ;
+    float: ;
+    position: ;
+}
+main section#fila-frase-larga article p{
+    width: ;
+    height: ;
+    display: ;
+    margin: ;
+    float: ;
+    position: ;
+}
+			
+main section#fila-3-fotos{
+    width: ;
+    height: ;
+    display: ;
+    margin: ;
+    float: ;
+    position: ;
+}
+main section#fila-3-fotos article#img-izquierda{
+    width: ;
+    height: ;
+    display: ;
+    margin: ;
+    float: ;
+    position: ;
+}
+main section#fila-3-fotos article#img-centro{
+    width: ;
+    height: ;
+    display: ;
+    margin: ;
+    float: ;
+    position: ;
+}
+main section#fila-3-fotos article#img-derecha{
+    width: ;
+    height: ;
+    display: ;
+    margin: ;
+    float: ;
+    position: ;
+}
+
+footer{
+    width: ;
+    height: ;
+    display: ;
+    margin: ;
+    float: ;
+    position: ;
+}
+footer article{
+    width: ;
+    height: ;
+    display: ;
+    margin: ;
+    float: ;
+    position: ;
+}
+footer article nav#menu-iconos-footer{
+    width: ;
+    height: ;
+    display: ;
+    margin: ;
+    float: ;
+    position: ;
+}
+footer article nav#menu-iconos-footer a{
+    width: ;
+    height: ;
+    display: ;
+    margin: ;
+    float: ;
+    position: ;
+}
+footer article nav#menu-iconos-footer a:hover{
+    width: ;
+    height: ;
+    display: ;
+    margin: ;
+    float: ;
+    position: ;
+}
+footer article a#logo-footer{
+    width: ;
+    height: ;
+    display: ;
+    margin: ;
+    float: ;
+    position: ;
+}
+footer article a#logo-footer img{
+    width: ;
+    height: ;
+    display: ;
+    margin: ;
+    float: ;
+    position: ;
+}
