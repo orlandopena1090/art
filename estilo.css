@@ -1,3 +1,75 @@
+aside#menu-cortina {
+	width: 290px;
+    height: 100%;
+    display: none;
+    margin: 0;
+    float: none;
+    position: fixed;
+    
+    top: 0;
+    right: -290px;
+    z-index: 99999;
+    
+    background: rgba(0, 0, 0, 0.95);
+}
+
+aside#menu-cortina a {
+	width: 40px;
+    height: 40px;
+    display: block;
+    margin: 0;
+    position: absolute;
+    top: 20px;
+    text-align: center;
+	transition: all 0.3s ease-in;
+}
+aside#menu-cortina a i {
+	font-size: 1.35em;
+    padding: 10px 0 0 0;
+	transition: all 0.3s ease-in;
+}
+aside#menu-cortina a:hover {
+	background: #fff;
+	transition: all 0.3s ease-in;
+}
+aside#menu-cortina a:hover i {
+	color: #000;
+	transition: all 0.3s ease-in;
+}
+
+aside#menu-cortina a#abrir {
+	left: -50px;
+    color: #fff;
+    z-index: 10;
+}
+aside#menu-cortina a#cerrar {
+	left: -50px;
+    color: #fff;
+    z-index: 9;
+}
+aside#menu-cortina nav#menu-moviles {
+	width: 80%;
+    height: auto;
+    display: block;
+    margin: 12% 10% 10% 10%;
+    position: relative;
+    float: none;
+}
+aside#menu-cortina nav#menu-moviles a {
+	width: 100%;
+    height: auto;
+    display: block;
+    margin: 25px auto;
+    position: relative;
+    float: none;
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.25em;
+}
+aside#menu-cortina nav#menu-moviles a:hover {
+	color: #000;
+}
+
 header{
     width: 100%;
     height: 90px;
@@ -15,7 +87,7 @@ header article{
     float: none;
     position: relative;
     
-    background: #330066;
+    background: #000000;
 }
 header article a#logo{
     width: 25%;
@@ -35,7 +107,7 @@ header article a#logo img{
 }
 header article nav#menu-principal{
     width: 50%;
-    height: 60px;
+    height: 52px;
     display: block;
     margin: 38px 0 0 25%;
     float: left;
@@ -69,13 +141,13 @@ main{
 }
 main section#fila-banner-frase{
     width: 100%;
-    height: 600px;
+    height: auto;
     display: block;
     margin: 0 auto;
     float: none;
     position: relative;
     
-    background: url(img/imagen-01.jpg);
+    background: url(img/buda.jpg);
     background-size: cover;
     
 }
@@ -88,25 +160,25 @@ main section#fila-banner-frase article{
     position: relative; 
 }
 main section#fila-banner-frase article h1{
-    font-family: "Oswald", sans-serif;
+    font-family: 'IM Fell French Canon';
     color: #FFFFFF;
     text-align: center;
     text-decoration: none;
     font-size: 5em;
     padding: 170px 0 10px 0;
     margin: 0;
-    font-weight: 500;
+    font-weight: 400;
     
 }
 main section#fila-banner-frase article p{
-    font-family: "Oswald", sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     color: #FFFFFF;
     text-align: center;
     text-decoration: none;
-    font-size: 1.4em;
+    font-size: 1.2em;
     padding: 0;
     margin: 0;
-    font-weight: 300;
+    font-weight: 100;
 }
 main section#fila-banner-frase article a#buttom{
     width: 8%;
@@ -118,18 +190,20 @@ main section#fila-banner-frase article a#buttom{
     
     top: 22px;
     
-    font-family: "Oswald", sans-serif;
+    font-family: 'Fjalla One', sans-serif;
     padding: 7px;
     text-decoration: none;
-    background-color: #330066;
-    color: #FFFFFF;
+    background-color: #FFFFFF;
+    color: #000000;
     border: 1px solid black;
     font-size: 1.1em;
     font-weight: 300;
     text-align: center;
 }
 main section#fila-banner-frase article a#buttom:hover{
-    
+    background: #000000;
+    color: #FFFFFF;
+    transition: ease-in-out 0.3s;
 }
 main section#fila-banner-frase article a#contacto{
     position: fixed;
@@ -170,275 +244,284 @@ main section#fila-banner-frase article a#whatsapp i{
 }
 main section#fila-4-columnas{
     width: 100%;
-    height: 360px;
+    height: auto;
     display: block;
     margin: 0 auto;
     float: none;
     position: relative;
 }
 main section#fila-4-columnas article{
-    width: 70%;
-    height: 360px;
+    width: 1000px;
+    height: 280px;
     display: block;
-    margin: 80px 20% 80px 20%;
+    margin: 0 auto;
     float: none;
     position: relative;
+    
+    padding: 75px 0 125px 0;
 }
-main section#fila-4-columnas article figure#serv1{
-    width: 20%;
-    height: 360px;
+main section#fila-4-columnas article figure{
+    width: 270px;
+    height: 330px;
     display: block;
-    margin: 0 auto;
+    margin: 0 95px 0 0;
     float: left;
     position: relative;
 }
-main section#fila-4-columnas article figure#serv1 img{
+main section#fila-4-columnas article figure img{
     width: 100%;
-    height: 200px;
+    height: auto;
     display: block;
     margin: 0 auto;
-    float: left;
+    float: none;
     position: relative;
     
-    border-radius: 50%;
+    border-radius: 50%;       
 }
-main section#fila-4-columnas article figure#serv1 h4{
-    font-family: "Oswald", sans-serif;
-    color: #000000;
-    text-align: center;
-    text-decoration: none;
-    font-size: 1.4em;
-    padding: ;
+main section#fila-4-columnas article figure:nth-child(3){
     margin: 0;
-    font-weight: 300;
-}
-main section#fila-4-columnas article figure#serv2{
-    width: 20%;
-    height: 360px;
-    display: block;
-    margin: 0 auto;
-    float: left;
-    position: relative;
-}
-main section#fila-4-columnas article figure#serv2 img{
-    width: 100%;
-    height: 200px;
-    display: block;
-    margin: 0 auto;
-    float: left;
-    position: relative;
-    
-    left: 30px;
-    
-    border-radius: 50%;
-}
-main section#fila-4-columnas article figure#serv2 h4{
-    font-family: "Oswald", sans-serif;
-    color: #000000;
+} 
+main section#fila-4-columnas article figure h4{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 1.35em;
     text-align: center;
-    text-decoration: none;
-    font-size: 1.4em;
-    padding: 0;
-    margin: 0 0 0 50px;
-    font-weight: 300;
-}
-main section#fila-4-columnas article figure#serv3{
-    width: 20%;
-    height: 360px;
-    display: block;
-    margin: 0 auto;
-    float: left;
-    position: relative;
-}
-main section#fila-4-columnas article figure#serv3 img{
-    width: 100%;
-    height: 200px;
-    display: block;
-    margin: 0 auto;
-    float: left;
-    position: relative;
-    
-    left: 60px;
-    
-    border-radius: 50%;
-}
-main section#fila-4-columnas article figure#serv3 h4{
-    width: auto;
-    font-family: "Oswald", sans-serif;
-    color: #000000;
-    text-align: center;
-    text-decoration: none;
-    font-size: 1.4em;
-    padding: 0 0 0 100px;
-    margin: 0 0 0 0;
-    font-weight: 300;
-}
-main section#fila-4-columnas article figure#serv4{
-    width: 20%;
-    height: 360px;
-    display: block;
-    margin: 0 auto;
-    float: left;
-    position: relative;
-}
-main section#fila-4-columnas article figure#serv4 img{
-    width: 100%;
-    height: 200px;
-    display: block;
-    margin: 0 auto;
-    float: left;
-    position: relative;
-    
-    left: 90px;
-    
-    border-radius: 50%;
-}
-main section#fila-4-columnas article figure#serv4 h4{
-    font-family: "Oswald", sans-serif;
-    color: #000000;
-    text-align: center;
-    text-decoration: none;
-    font-size: 1.4em;
-    padding: 0 0 0 100px;
-    margin: 0 0 0 0;
     font-weight: 300;
 }
 main section#fila-2-fotos{
-    width: ;
-    height: ;
-    display: ;
-    margin: ;
-    float: ;
-    position: ;
+    width: 100%;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
 }
 main section#fila-2-fotos article#foto-izquierda{
-    width: ;
-    height: ;
-    display: ;
-    margin: ;
-    float: ;
-    position: ;
+    width: 50%;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    
+    background: url(img/Espadas.jpg);
+    background-size: cover;
 }
 main section#fila-2-fotos article#foto-derecha{
-    width: ;
-    height: ;
-    display: ;
-    margin: ;
-    float: ;
-    position: ;
+    width: 50%;
+    height: 400px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    
+    background: url(img/lanza1.jpg);
+    background-size: cover;
 }
 
 main section#fila-frase-larga{
-    width: ;
-    height: ;
-    display: ;
-    margin: ;
-    float: ;
-    position: ;
+    width: 100%;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
 }
 main section#fila-frase-larga article{
-    width: ;
-    height: ;
-    display: ;
-    margin: ;
-    float: ;
-    position: ;
+    width: 80%;
+    height: 220px;
+    display: block;
+    margin: 80px 10% 80px 10%;
+    float: none;
+    position: relative;
 }
-main section#fila-frase-larga article p{
-    width: ;
-    height: ;
-    display: ;
-    margin: ;
-    float: ;
-    position: ;
+main section#fila-frase-larga article p#parrafo1{
+    font-family: "Oswald", sans-serif;
+    color: #000000;
+    text-align: justify;
+    text-decoration: none;
+    font-size: 1.4em;
+    padding: 0;
+    margin: 0;
+    font-weight: 300;
 }
-			
+main section#fila-frase-larga article p#parrafo2{
+    font-family: "Oswald", sans-serif;
+    color: #000000;
+    text-align: justify;
+    text-decoration: none;
+    font-size: 1.4em;
+    padding: 30px 0 0 0;
+    margin: 0;
+    font-weight: 300;
+}		
 main section#fila-3-fotos{
-    width: ;
-    height: ;
-    display: ;
-    margin: ;
-    float: ;
-    position: ;
+    width: 100%;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
 }
 main section#fila-3-fotos article#img-izquierda{
-    width: ;
-    height: ;
-    display: ;
-    margin: ;
-    float: ;
-    position: ;
+    width: 34%;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    
+    background: url(img/pitbull-01.png);
+    background-size: cover;
 }
 main section#fila-3-fotos article#img-centro{
-    width: ;
-    height: ;
-    display: ;
-    margin: ;
-    float: ;
-    position: ;
+    width: 32%;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    
+    background: url(img/hiena-01.png);
+    background-size: cover;
 }
 main section#fila-3-fotos article#img-derecha{
-    width: ;
-    height: ;
-    display: ;
-    margin: ;
-    float: ;
-    position: ;
+    width: 34%;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    
+    background: url(img/ternero.png);
+    background-size: cover;
 }
-
 footer{
-    width: ;
-    height: ;
-    display: ;
-    margin: ;
-    float: ;
-    position: ;
+    width: 100%;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+    background: #000000;
 }
 footer article{
-    width: ;
-    height: ;
-    display: ;
-    margin: ;
-    float: ;
-    position: ;
+    width: 60%;
+    height: 300px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
 }
 footer article nav#menu-iconos-footer{
-    width: ;
-    height: ;
-    display: ;
-    margin: ;
-    float: ;
-    position: ;
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+    float: none;
+    position: relative;
+    
+    text-align: center;
+    top: 50px;
 }
 footer article nav#menu-iconos-footer a{
-    width: ;
-    height: ;
-    display: ;
-    margin: ;
-    float: ;
-    position: ;
+    text-decoration: none;
+    width: 50px;
 }
-footer article nav#menu-iconos-footer a:hover{
-    width: ;
-    height: ;
-    display: ;
-    margin: ;
-    float: ;
-    position: ;
+footer article nav#menu-iconos-footer a i{
+    padding: 0.8em;
+    font-size: 1.5em;
+    border-radius: 50%;
+    color: #FFF;
+    
+    transition: all .2s ease-in-out;
+}
+footer article nav#menu-iconos-footer a i:hover{
+    transform: scale(1.2);
 }
 footer article a#logo-footer{
-    width: ;
-    height: ;
-    display: ;
-    margin: ;
-    float: ;
-    position: ;
+    width: 100%;
+    height: 80px;
+    display: block;
+    margin: 0 auto;
+    float: left;
+    position: relative;
+    
+    top: 90px;
+    text-align: center;
 }
 footer article a#logo-footer img{
-    width: ;
-    height: ;
-    display: ;
-    margin: ;
-    float: ;
-    position: ;
+    width: auto;
+    height: 70px;
+}
+
+@media only screen and (max-width: 1199px){
+    main section#fila-4-columnas article{
+        width: 270px;
+        height: 1040px;  
+    }
+    main section#fila-4-columnas article figure{
+        margin: 10px 0;  
+    }
+    main section#fila-4-columnas article figure:nth-child(3){
+        margin: 10px 0 75px 0;    
+    }
+    main section#fila-banner-frase article a#buttom{
+        width: 10%;
+    }
+}
+
+@media only screen and (max-width: 899px){
+    main section#fila-frase-larga{
+        height: auto;
+    }
+    main section#fila-frase-larga article{
+        height: auto;
+    } 
+    main section#fila-3-fotos{
+        width: 100%;
+        height: auto;
+    }
+    main section#fila-3-fotos article#img-izquierda{
+        width: 100%;
+        float: none;
+        margin: 10px 0;
+    }
+    main section#fila-3-fotos article#img-centro{
+        width: 100%;
+        float: none;
+        margin: 10px 0;
+    }
+    main section#fila-3-fotos article#img-derecha{
+        width: 100%;
+        float: none;
+    }
+    
+    header article nav#menu-principal{
+        display: none;
+    }
+    
+    aside#menu-cortina{
+        display: block;
+    }
+    
+    main section#fila-banner-frase article a#buttom{
+        width: 15%;
+    }
+}
+
+@media only screen and (max-width: 699px){
+    footer article{
+        width: 100%;
+    }
+    
+    main section#fila-banner-frase article a#buttom{
+        width: 15%;
+    }
+}
+
+@media only screen and (max-width: 599px){
+    main section#fila-banner-frase article a#buttom{
+        width: 20%;
+    }
 }

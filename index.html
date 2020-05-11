@@ -1,87 +1,143 @@
 <!DOCTYPE html>
-<html lang="es">
-    <head>
-        <!--Título y Descripción de la Página x cada página del sitio web-->
-        <meta title="Orlando Peña - Art">
-        <title>ORLANDO PEÑA | TATTOO ARTIST</title>
-        <meta name="description" content="Arte sobre la piel."/>
-        
-        <!--Codificación de Caracteres-->
-        <meta charset="utf-8">
-        
-        <!--Meta del Responsive-->
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        
-        <!--Normalize, Modernizr y Prefix Free desde CDN-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
-        
-        <!--Llamado a Font Awesome Icons-->
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-        
-        <!--Llamado a Google Fonts-->
-        <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2:400,500,600,700,800&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=IM+Fell+French+Canon&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
-        <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
-        
-        <!--Llamado a CSS propio-->
-        <link rel="stylesheet" href="css/estilo.css">
-    </head>
-    
-    <body>
-        <main>
-            <section id="caja-principal">
-                <article>
-                    <img src="img/bfoto2.jpg" alt="Orlando Peña">
-                </article>
+<html lang="es" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>Orlando Peña</title>
 
-                <article>
-                    <h1>ORLANDO PEÑA</h1>
+		<!--Google Fonts-->
+		<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap&subset=latin-ext" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
 
-                    <h3 class="caption">Tattoo artist, Photography and student of Graphic design.</h3>
-                    
-                    <a class="enlace" href="https://www.facebook.com/orlandoptattoo/" target="_blank">
-                        Portfolio
+		<!--Font Awesome Icons-->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+
+		<!--Normalize CSS en CDN-->
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
+
+		<!--Llamado a CSS y JS propios-->
+		<link rel="stylesheet" href="estilo.css">
+	</head>
+
+	<body>
+        <aside id="menu-cortina">
+            <a href="#" id="abrir">
+                <i class="fas fa-bars"></i>
+            </a>
+            <a href="#" id="cerrar">
+                <i class="fas fa-times"></i>
+            </a>
+            <nav id="menu-moviles">
+                <a href="#fila-banner-frase">Home</a>
+                <a href="#fila-4-columnas">Services</a>
+                <a href="#fila-3-fotos">Galery</a>
+                <a href="#fila-frase-larga">About us</a>
+            </nav>
+        </aside>
+        
+		<header>
+			<article>
+                <a href="#" id="logo">
+                    <img src="img/logo.png">
+                </a>
+                
+                <nav id="menu-principal">
+                    <a href="#fila-banner-frase">Home</a>
+                    <a href="#fila-4-columnas">Services</a>
+                    <a href="#fila-3-fotos">Galery</a>
+                    <a href="#fila-frase-larga">About us</a>
+                </nav>
+            </article>
+		</header>
+		
+		<main>
+			<section id="fila-banner-frase">
+				<article>
+					<h1>ORLANDO PEÑA</h1>
+                    <p>Tattoo artist, Photography and student of Graphic design.</p>
+                    <a href="#" id="buttom">Show more</a>
+                    <a href="#" id="contacto">
+                        <i class="fas fa-phone"></i>
                     </a>
-
-                    <h3>Tattoo artist with more than 7 years of experience, specialized in Black and Gray and related styles, graphic design student at the Universidad Autònoma del Caribe.</h3>
-
-                    <div id="caja-info">
-                        <div class="caja-texto">
-                            <h6>WORK</h6>
-                            <h4>North Side Tattoo Studio</h4>
-                        </div>
-
-                        <div class="caja-texto2">
-                            <h6>CITY</h6>
-                            <h4>Barranquilla</h4>
-                        </div>
-                    </div>
-
-                    <nav>
-                        <a href="https://wa.link/0iecor" target="_blank">
-                            <i class="fab fa-whatsapp grow" style="color: #000;"></i>
-                        </a>
-
-                        <a href="https://www.instagram.com/orlandoptattoo/" target="_blank">
-                            <i class="fab fa-instagram grow" style="color: #000;"></i>
-                        </a>
-
-                        <a href="https://www.facebook.com/orlandoptattoo/" target="_blank">
-                            <i class="fab fa-facebook grow" style="color: #000;"></i>
-                        </a>
-                    </nav>
-                </article>
-            </section>
-        </main>
+                    <a href="#" id="whatsapp">
+                        <i class="fab fa-whatsapp"></i>
+                    </a>
+				</article>
+			</section>
+			
+			<section id="fila-4-columnas">
+				<article>
+					<figure>
+						<img src="img/servicio1.png">
+						<h4>TATTOO</h4>
+					</figure>
+					
+					<figure>
+						<img src="img/servicio2.png">
+						<h4>ANIMAL</h4>
+					</figure>
+					
+					<figure>
+						<img src="img/servicio3.png">
+						<h4>DESIGN</h4>
+					</figure>
+				</article>
+			</section>
+			
+			<section id="fila-2-fotos">
+				<article id="foto-izquierda"></article>
+				<article id="foto-derecha"></article>
+			</section>
+			
+			<section id="fila-frase-larga">
+				<article>
+                    <p id="parrafo1">Tattoo artist with more than 7 years of experience, specialized in Black and Gray and related styles, graphic design student at the Universidad Autònoma del Caribe.<p>
+                
+                    <p id="parrafo2">Undoubtedly the meaning of this type of tattoos can have very varied interpretations; This is because some of them change depending on the culture or religion. If you have a preference for an animal and do not yet know its meaning, we will tell you about it here.</p>
+				</article>
+			</section>
+			
+			<section id="fila-3-fotos">
+				<article id="img-izquierda"></article>
+				<article id="img-centro"></article>
+				<article id="img-derecha"></article>
+			</section>
+		</main>
+		
+		<footer>
+			<article>
+				<nav id="menu-iconos-footer">
+                    <a href="#" id="instagram">
+                        <i class="fab fa-instagram grow"></i>
+                    </a>
+                    <a href="#" id="twitter">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="#" id="facebook">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="#" id="mapa">
+                        <i class="fas fa-map-marker"></i>
+                    </a>
+                    <a href="#" id="mail">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="#" id="telefono">
+                        <i class="fas fa-mobile"></i>
+                    </a>
+                </nav>
+                
+                <a href="#" id="logo-footer">
+                    <img src="img/logo.png">
+                </a>
+			</article>
+		</footer>
         
-        <!--Zona donde van los archivos JavaScript-->
-        <!--Llamado a librería jQuery principal desde CDN-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-    </body>
+        <!--Llamados a JavaScript-->
+        <!--Llamado a jQuery y a jQuery Easing desde un CDN-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.0/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js"></script>
+        
+        <!--Configuración de Menú Interno y Menú Cortina-->
+        <script src="script.js"></script>
+	</body>
 </html>
-
-
-
