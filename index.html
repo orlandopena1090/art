@@ -1,116 +1,87 @@
 <!DOCTYPE html>
-<html lang="es" dir="ltr">
-	<head>
-		<meta charset="utf-8">
-		<title>2do Parcial</title>
+<html lang="es">
+    <head>
+        <!--Título y Descripción de la Página x cada página del sitio web-->
+        <meta title="Orlando Peña - Art">
+        <title>ORLANDO PEÑA | TATTOO ARTIST</title>
+        <meta name="description" content="Arte sobre la piel."/>
+        
+        <!--Codificación de Caracteres-->
+        <meta charset="utf-8">
+        
+        <!--Meta del Responsive-->
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        <!--Normalize, Modernizr y Prefix Free desde CDN-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+        
+        <!--Llamado a Font Awesome Icons-->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+        
+        <!--Llamado a Google Fonts-->
+        <link href="https://fonts.googleapis.com/css?family=Baloo+Chettan+2:400,500,600,700,800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=IM+Fell+French+Canon&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Fjalla+One&display=swap" rel="stylesheet">
+        
+        <!--Llamado a CSS propio-->
+        <link rel="stylesheet" href="css/estilo.css">
+    </head>
+    
+    <body>
+        <main>
+            <section id="caja-principal">
+                <article>
+                    <img src="img/bfoto2.jpg" alt="Orlando Peña">
+                </article>
 
-		<!--Google Fonts-->
-		<link href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,400,500,600,700,800,900&display=swap&subset=latin-ext" rel="stylesheet">
+                <article>
+                    <h1>ORLANDO PEÑA</h1>
 
-		<!--Font Awesome Icons-->
-		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
-
-		<!--Normalize CSS en CDN-->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css">
-
-		<!--Llamado a CSS y JS propios-->
-		<link rel="stylesheet" href="estilo.css">
-		<script src="script.js"></script>
-	</head>
-
-	<body>
-		<header>
-			<article>
-                <a href="#" id="logo">
-                    <img src="img/logo.png">
-                </a>
-                
-                <nav id="menu-principal">
-                    <a href="#">Inicio</a>
-                    <a href="#">Servicios</a>
-                    <a href="#">Nuestra Empresa</a>
-                    <a href="#">Proyectos</a>
-                </nav>
-            </article>
-		</header>
-		
-		<main>
-			<section id="fila-banner-frase">
-				<article>
-					<h1>Lorem ipsum dolor sit amet</h1>
-                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
-                    <a href="#" id="buttom">Ver mas</a>
-                    <a href="#" id="contacto">
-                        <i class="fas fa-phone"></i>
-                    </a>
-                    <a href="#" id="whatsapp">
-                        <i class="fab fa-whatsapp"></i>
-                    </a>
-				</article>
-			</section>
-			
-			<section id="fila-4-columnas">
-				<article>
-					<figure id="serv1">
-						<img src="img/servicio1.jpg">
-						<h4>SERVICIO 1</h4>
-					</figure>
-					
-					<figure id="serv2">
-						<img src="img/servicio2.jpg">
-						<h4>SERVICIO 2</h4>
-					</figure>
-					
-					<figure id="serv3">
-						<img src="img/servicio3.jpg">
-						<h4>SERVICIO 3</h4>
-					</figure>
-					
-					<figure id="serv4">
-						<img src="img/servicio4.jpg">
-						<h4>SERVICIO 4</h4>
-					</figure>
-				</article>
-			</section>
-			
-			<section id="fila-2-fotos">
-				<article id="foto-izquierda"></article>
-				<article id="foto-derecha"></article>
-			</section>
-			
-			<section id="fila-frase-larga">
-				<article>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum a dictum ex, sit amet porttitor purus.
-                    Phasellus hendrerit ultrices facilisis. Sed rhoncus ipsum non auctor posuere. Interdum et malesuada fames
-                    ac ante ipsum primis in faucibus. Sed ultricies placerat magna id imperdiet. Aliquam erat volutpat.<p>
+                    <h3 class="caption">Tattoo artist, Photography and student of Graphic design.</h3>
                     
-                    <p>Mauris consectetur rutrum erat. Proin commodo turpis eget bibendum commodo. Nulla luctus sapien nunc,
-                    ac lobortis sem mattis vitae. Sed sagittis convallis odio, nec sagittis mauris porta in. Aliquam tincidunt aliquet nibh sit amet dictum. In porta dolor ut congue malesuada. Vestibulum tristique auctor augue in ultricies.</p>
-				</article>
-			</section>
-			
-			<section id="fila-3-fotos">
-				<article id="img-izquierda"></article>
-				<article id="img-centro"></article>
-				<article id="img-derecha"></article>
-			</section>
-		</main>
-		
-		<footer>
-			<article>
-				<nav id="menu-iconos-footer">
-                    <a href="#">Icon 1</a>
-                    <a href="#">Icon 2</a>
-                    <a href="#">Icon 3</a>
-                    <a href="#">Icon 4</a>
-                    <a href="#">Icon 5</a>
-                    <a href="#">Icon 6</a>
-                </nav>
-                
-                <a href="#" id="logo-footer">
-                    <img src="img/logo.png">
-                </a>
-			</article>
-		</footer>
-	</body>
+                    <a class="enlace" href="https://www.facebook.com/orlandoptattoo/" target="_blank">
+                        Portfolio
+                    </a>
+
+                    <h3>Tattoo artist with more than 7 years of experience, specialized in Black and Gray and related styles, graphic design student at the Universidad Autònoma del Caribe.</h3>
+
+                    <div id="caja-info">
+                        <div class="caja-texto">
+                            <h6>WORK</h6>
+                            <h4>North Side Tattoo Studio</h4>
+                        </div>
+
+                        <div class="caja-texto2">
+                            <h6>CITY</h6>
+                            <h4>Barranquilla</h4>
+                        </div>
+                    </div>
+
+                    <nav>
+                        <a href="https://wa.link/0iecor" target="_blank">
+                            <i class="fab fa-whatsapp grow" style="color: #000;"></i>
+                        </a>
+
+                        <a href="https://www.instagram.com/orlandoptattoo/" target="_blank">
+                            <i class="fab fa-instagram grow" style="color: #000;"></i>
+                        </a>
+
+                        <a href="https://www.facebook.com/orlandoptattoo/" target="_blank">
+                            <i class="fab fa-facebook grow" style="color: #000;"></i>
+                        </a>
+                    </nav>
+                </article>
+            </section>
+        </main>
+        
+        <!--Zona donde van los archivos JavaScript-->
+        <!--Llamado a librería jQuery principal desde CDN-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    </body>
 </html>
+
+
+
